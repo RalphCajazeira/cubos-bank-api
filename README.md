@@ -19,7 +19,7 @@ O Insomnia é uma aplicação de código aberto que permite criar, testar e docu
 1. Clone este repositório (ou faça o download do código-fonte):
 
    ```bash
-   git clone https://github.com/seu-nome/cubos-bank-api.git
+   git clone git@github.com:RalphCajazeira/cubos-bank-api.git
 
 
 # Documentação da API do Banco
