@@ -94,6 +94,9 @@ A API oferece os seguintes endpoints para realizar operações bancárias:
 - **Exemplo de Solicitação**:
   - Método: GET
   - URL: `http://localhost:3000/contas?senha_banco=Cubos123Bank`
+ 
+    ![image](https://github.com/RalphCajazeira/cubos-bank-api/assets/130074637/d0141d05-c694-4536-b2e4-0a0e6fbeef00)
+
   
 ## 2. Criar Conta Bancária
 
@@ -112,6 +115,9 @@ A API oferece os seguintes endpoints para realizar operações bancárias:
     }
     ```
 
+    ![image](https://github.com/RalphCajazeira/cubos-bank-api/assets/130074637/65035e6a-f4df-4506-af81-e4efdd141fe5)
+
+
 ## 3. Atualizar Dados do Usuário da Conta Bancária
 
 - **Exemplo de Solicitação**:
@@ -123,12 +129,17 @@ A API oferece os seguintes endpoints para realizar operações bancárias:
         "email": "novoemail@email.com"
     }
     ```
+![image](https://github.com/RalphCajazeira/cubos-bank-api/assets/130074637/d28b3ad6-10f2-4332-8148-70c2ffb9649f)
+
 
 ## 4. Excluir Conta Bancária
 
 - **Exemplo de Solicitação**:
   - Método: DELETE
   - URL: `http://localhost:3000/contas/1`
+
+![image](https://github.com/RalphCajazeira/cubos-bank-api/assets/130074637/4177a457-e8c2-4c99-b340-d886bfc36eb8)
+
 
 ## 5. Depositar
 
@@ -142,6 +153,8 @@ A API oferece os seguintes endpoints para realizar operações bancárias:
         "valor": 1000
     }
     ```
+![image](https://github.com/RalphCajazeira/cubos-bank-api/assets/130074637/3bcd9ab5-6308-42c1-92ae-5992c95bc830)
+
 
 ## 6. Sacar
 
@@ -156,6 +169,8 @@ A API oferece os seguintes endpoints para realizar operações bancárias:
         "senha": "MinhaSenha123"
     }
     ```
+![image](https://github.com/RalphCajazeira/cubos-bank-api/assets/130074637/85dd6c5c-c968-4aee-a644-be8adf85a330)
+
 
 ## 7. Transferir
 
@@ -171,6 +186,8 @@ A API oferece os seguintes endpoints para realizar operações bancárias:
         "senha": "MinhaSenha123"
     }
     ```
+    ![image](https://github.com/RalphCajazeira/cubos-bank-api/assets/130074637/e89abc50-9c37-4a24-89e9-c0293012bb9b)
+
 
 ## 8. Consultar Saldo
 
@@ -178,11 +195,17 @@ A API oferece os seguintes endpoints para realizar operações bancárias:
   - Método: GET
   - URL: `http://localhost:3000/contas/saldo?numero_conta=1&senha=MinhaSenha123`
 
+![image](https://github.com/RalphCajazeira/cubos-bank-api/assets/130074637/ce25d73d-7224-43d9-9704-8e0ee68fae54)
+
+
 ## 9. Emitir Extrato
 
 - **Exemplo de Solicitação**:
   - Método: GET
   - URL: `http://localhost:3000/contas/extrato?numero_conta=1&senha=MinhaSenha123`
+
+![image](https://github.com/RalphCajazeira/cubos-bank-api/assets/130074637/2fe04adc-dedf-41a0-b8ab-4de2d7dab77a)
+
 
 Lembre-se de substituir "http://localhost:3000" pelo URL real da sua API, se necessário, e fornecer os parâmetros corretos e seguir as instruções de autenticação (quando necessário) para usar cada endpoint com sucesso.
 
